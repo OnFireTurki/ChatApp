@@ -1,0 +1,9 @@
+#pragma once
+#include <iostream>
+#include <string.h>
+#include <string>
+#include <ws2tcpip.h>
+#include <sys/types.h>
+#include <winsock2.h>
+#include <stdlib.h>
+#include <io.h>
