@@ -55,6 +55,7 @@ int client_connect() {
 			}
 			else if (i == 0)
 				std::cout << "Connection closing...\n";
+                                client_Stop = true;
 			else {
 				std::cout << "recv failed with error:" << WSAGetLastError() << std::endl;
 				client_Stop = true;
