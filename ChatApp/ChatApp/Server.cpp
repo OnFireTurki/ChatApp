@@ -80,6 +80,7 @@ int listen_a_accept() {
 				}
 				else if (i == 0)
 					std::cout << "Connection closing...\n";
+                                        Stop = true;
 				else {
 					std::cout << "recv failed with error:" << WSAGetLastError() << std::endl;
 					Stop = true;
